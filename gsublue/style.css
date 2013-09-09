@@ -1,0 +1,106 @@
+/*
+Theme Name: Georgia Southern University Blue Theme
+Author: Georgia Southern University Web Team
+Author URI: http://wordpress.georgiasouthern.edu
+Description: Standard Georgia Southern University theme.
+Version: 1.2
+*/
+
+/* CONTENT STYLES */
+#home h1.title {
+	margin-top: 10px;
+	}
+	
+.news_item {border:none;}
+
+ul.subnav {
+	margin-left: 0;
+	}
+
+ul.subnav li{
+    float: left;
+    list-style-type: none;
+    margin: -25px 0 25px 0;
+    padding: 0 25px 0 0;
+    width: auto;
+}
+ul.subnav li  a {
+	font-weight: 700;
+	}
+.floatleft {
+	float: left;
+	width: 35%;
+	}
+.clear {
+	clear: both;
+}
+
+strong {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: inherit;
+}
+
+/* Buttons */
+.fp_readmore, .page_more, .page_visitsite {
+	background: url(http://cms.georgiasouthern.edu/~gsu/web_templates/root/images/bg_arrowpoint_right.png) no-repeat scroll right top #0452A0;
+	}
+
+/* Post Styles */
+.news h1.title {
+	font-size: 2.5em; 
+	line-height: 1.2em;
+	}
+.news h1 {
+	font-size: 2em; 
+	line-height: 1.2em; 
+	}
+	
+.news h2 {
+	font-size: 1.8em; 
+	line-height: 1.2em; 
+	} 
+	
+.prev-post, .next-post {
+	font-size: 11px;
+	color: #555;
+	text-decoration: underline;
+	}
+.next-post {
+	float:right;
+	width: auto;
+	clear:both;
+	}
+
+/* Form Styles */
+div.form-box {
+	border:1px solid #CCC;
+	padding: 15px;
+	margin-bottom: 15px;
+	}
+
+/* Add This Sharing Button Styles */
+.breadcrumbs {
+	float: left;
+    width: 80%;	
+}
+	
+.addthis_toolbox {
+    clear: none !important;
+	float: right;
+    margin:0 !important;
+    padding: 0 !important;
+    position: static !important;
+    width: 15% !important;
+}
+/* Widgets */
+.fp_feature {
+	border-top: 4px solid #0452A0; 
+	}
+#sidebarpad-dept .sidebar-widget {
+	margin-bottom: 1em; 
+	clear:both;
+	}
+#applynow.ribbon-right {
+	margin-top:0;
+	z-index: 99;
+	}
