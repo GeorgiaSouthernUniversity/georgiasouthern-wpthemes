@@ -1,0 +1,113 @@
+/*
+Theme Name: Georgia Southern University Library Theme
+Author: Georgia Southern University Web Team
+Author URI: http://www.georgiasouthern.edu
+Description: Child theme of GSU College.
+Template: gsucollege
+Version: 1.2
+*/
+
+#home-titleblock {    
+	background: -moz-linear-gradient(center top , #285797 0%, #132749 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#285797), color-stop(100%,#132749));
+	background: -webkit-linear-gradient(top,  #285797 0%,#132749 100%);
+	background: -o-linear-gradient(top,  #285797 0%,#132749 100%);
+	background: -ms-linear-gradient(top,  #285797 0%,#132749 100%);
+	background: linear-gradient(top,  #285797 0%,#132749 100%);
+	background-color: #3B5997;
+}
+
+
+
+/* dev site local.less */
+
+#fp_menu{height:355px; margin-top:10px; border-top:1px solid #ddd;background:#fefefe; box-shadow:0px 0px 7px  #bbb; -moz-box-shadow:0px 0px 7px  #bbb; -webkit-box-shadow:0px 0px 7px  #bbb;}
+#fp_menuheadershadow {position:absolute; z-index:3; top:46px; right:2px; }
+.ie #fp_menuheadershadow {top:45px;} 
+#fp_slideshowwrap {background:none; /*outline:1px solid #ddd; border:1px solid #fff;*/}
+#fp_featurewrap {padding-bottom:25px;}
+
+#bottom_bar {height:auto;position:static;}
+#bottom_bar p {text-align:center;font-size:12px;margin-bottom:0; padding-bottom:5px;}
+
+
+/* SEARCH FORM STYLES */
+.gsform input	{outline:none;}
+input::-webkit-input-placeholder { color:#666;}
+input:-moz-placeholder { color: #666;}
+.ui-tabs .ui-tabs-panel {background:#fefefe; box-shadow:0px 0px 5px  #ddd; -moz-box-shadow:0px 0px 5px  #ddd; -webkit-box-shadow:0px 0px 5px  #ddd; }
+.search-options {font-size:12px; margin-top:10px; color:@endgradient; float:left;}
+.search-options a {text-decoration:none; color:@endgradient;}
+.search-options a:hover {text-decoration:underline; color:@base;}
+.search-options strong {color:#333; font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px;}
+
+.search-filter {float:right; }
+.search-filter, .gsform .search-filter label {font-size:12px; margin-top:10px; }
+.gsform .search-filter label {float:none; display:inline; margin-right:2px;}
+.search-filter strong {font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:14px; }
+
+
+.gsform input[type=text] {height:25px; line-height:25px; width:84%; padding:0; margin:0; padding-left:1%; border-color:#bbb}
+.gsform input[type=submit] {padding:0; height:30px; line-height:29px; width:13%; margin:0; font-family:Arial, Helvetica, sans-serif; font-weight:normal; color:#333; .bg_local; font-size:14px;}
+
+.gsform.gil input[type=text] {height:25px; line-height:25px; width:59%;padding:0; padding-right:20%;  margin:0; padding-left:1%; border-color:#bbb; }
+.gsform.gil select {width:18%;  padding:0; margin:0; margin-left:-20%; padding-left:0; border-color:#bbb}
+.gsform.gil input[type=submit] {padding:0; height:30px; line-height:29px; width:18%; margin:0; font-family:Arial, Helvetica, sans-serif; font-weight:normal; color:#333; .bg_local; font-size:14px; margin-right:0; float:right; }
+.gsform.gil .search-options, .gsform.gil .search-filter  { color:#333;}
+.gsform.gil .search-options a {text-decoration:underline;}
+.gsform.gil .search-filter a {text-decoration:none; color:@endgradient;}
+
+.gsform.ejournals .search-filter	{float:left}
+#ebscohostsearchtext {}
+.left {float:left;}
+.right {float:right;}
+.hasPlaceholder { color: #666;}
+.marbot_7 {margin-bottom:7px;}
+
+#discovery, #gil, #galileo, #ejournals {width:584px; margin-bottom:5px; min-height:90px;}
+#tabs_search .ui-tabs .ui-tabs-panel {padding:0;}
+.inline	{display:inline;}
+p.fp_newstitle {font-family:Arial, Helvetica, sans-serif; font-weight:400; font-size:12px; margin-bottom:0px; background:url(/web_templates/CORE/css/images/bg_bullet_quicklinks.png) no-repeat 6px 5px; padding-left:16px;}
+.fp_newstitle a {text-decoration:none;}
+.fp_newstitle a:hover {text-decoration:underline;}
+.fp_newsdate {font-weight:800; font-size:12px;}
+.fp_newsarticle {border-top:1px solid #fff; border-bottom:1px solid #eee; margin-bottom:0px; padding:5px 5px 5px 3px;}
+
+.ui_facebook{position:absolute; right:50px; top:9px; z-index:500; width:16px; height:16px;}
+.ui_twitter{position:absolute; right:30px; top:9px; z-index:500; width:16px; height:16px;}
+.ui_youtube{position:absolute; right:10px; top:9px; z-index:500; width:16px; height:16px;}
+
+#lib-accreditation {margin-top:10px; font-size:12px; }
+#lib-accreditation img { position:relative; margin-left:2px; top:15px;}
+#branding-galileo {text-align:right; position:absolute; bottom:15px; right:40px; font-size:11px; margin-top:20px;}
+#branding-galileo span {text-align:right; position:relative; top:-4px; right:5px; color:#444;}
+#branding-galileo a {color:#444;}
+#logo-galileo {width:65px; height:16px;}
+#homebanner {width:620px; height:163px;}
+#home-titleblock {position:absolute; top:0;width:100px; padding:12px 15px; margin-left:11px; opacity:.97; font-family:Arial, Helvetica, sans-serif; color:#fff }
+#home-titleblock div#row1 {font-size:16px}
+#home-titleblock div#row2 {font-size:20px; margin-top:-3px}
+#home-titleblock div#row3 {font-size:29px; font-family:Arial, Helvetica, sans-serif; font-weight:700; margin-top:-5px}
+
+#fp_menu ul.custom-bullets {margin-top:-1px;}
+#fp_menu ul.custom-bullets li {
+background: none;
+font-size: 11px;
+padding: 0;
+margin: 0;
+}
+
+.fp-custom-bullets {height:13px; width:13px; top:4px; position:relative; margin-left:2px; margin-right:6px;}
+
+.fp-custom-bullets.hours {top:2px}
+.fp-custom-bullets.maps {top:2px}
+.fp-custom-bullets.faq {top:3px}
+.fp-custom-bullets.contact {top:3px}
+
+.inlinegraphic {position:relative; top:7px;}
+
+#livechatwrap { position:relative;}
+img#img_livechat {position:absolute; left:5px; top:-70px;}
+.imgshim_neg10 {top:-10px; position:relative;}
+
+

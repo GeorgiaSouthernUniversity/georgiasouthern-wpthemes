@@ -1,0 +1,24 @@
+/*
+Theme Name: Georgia Southern University COGS Theme
+Author: Georgia Southern University Web Team
+Author URI: http://wordpress.georgiasouthern.edu
+Description: Child theme of GSU College theme.
+Template: gsucollege 
+Version: 1.2
+*/
+
+/* Custom CSS */
+#fp_menuheader {
+	font-size: 16px; 
+	font-weight: bold; 
+	}
+#college-menu {
+	padding: 0 5px; 
+	height: auto;
+	}
+#college-menu h3 {
+	font-size: 15px;
+	line-height: 1.5em;
+	padding: 5px 0;	
+	}
+

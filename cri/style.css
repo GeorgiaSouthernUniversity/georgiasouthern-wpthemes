@@ -1,0 +1,126 @@
+/*
+Theme Name: Georgia Southern University CRI Theme
+Author: Georgia Southern University Web Team
+Author URI: http://wordpress.georgiasouthern.edu
+Description: CRI child theme of GSU College theme.
+Template: gsucollege 
+Version: 1.3
+*/
+
+/* CRI Custom CSS */
+#fp_menuheader {
+	font-size: 16px; 
+	font-weight: bold; 
+	}
+#college-menu {
+	padding: 0 5px; 
+	height: auto;
+	}
+#college-menu h3 {
+	font-size: 15px;
+	line-height: 1.5em;
+	padding: 5px 0;	
+	}
+
+#mobilecopy .addthis_toolbox, #mobilecopy .addthis_button {
+	display:none; /* Hide AddThis on Mobile Page (duplicate of home)*/
+	}
+	
+#groupFit table {
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    width:685px;
+    -moz-border-radius:8px; /* FF1+ */
+    -webkit-border-radius:8px; /* Saf3-4 */
+    border-radius:8px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+#groupFit th { font-size:12px; text-shadow: 1px 1px 1px #666; text-align:center; color:#FFF; background: #D4B94A url('../images/bg_yellow_stripe.png');}
+#groupFit th span{ font-size:80%; }
+ 
+#groupFit td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;padding:8px 0px; text-align:center;}
+ 
+#groupFit tr:hover {background-color:#f6f6f6;}
+ 
+#groupFit td.first, th.first {text-align:left; width:40px; padding:8px;}
+ 
+#groupFit td.last {border-right:none;}
+ 
+#groupFit tr:first-child th.first {
+    -moz-border-radius-topleft:8px;
+    -webkit-border-top-left-radius:8px; /* Saf3-4 */
+}
+ 
+#groupFit tr:first-child th.last {
+    -moz-border-radius-topright:8px;
+    -webkit-border-top-right-radius:8px; /* Saf3-4 */
+}
+ 
+#groupFit tr:last-child td.first {
+    -moz-border-radius-bottomleft:8px;
+    -webkit-border-bottom-left-radius:8px; /* Saf3-4 */
+}
+ 
+#groupFit tr:last-child td.last {
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-bottom-right-radius:8px; /* Saf3-4 */
+}
+
+#groupFitLocale table{
+	font-size:12px;
+	  width:685px;
+	 border:1px solid #d3d3d3;
+    background:#fefefe;
+    -moz-border-radius:8px; /* FF1+ */
+    -webkit-border-radius:8px; /* Saf3-4 */
+    border-radius:8px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+#groupFitLocale th { text-shadow: 1px 1px 1px #666; text-align:center; color:#FFF; background: #D4B94A url('../images/bg_yellow_stripe.png'); font-size:12px;}
+#groupFitLocale	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;padding:8px 0px; text-align:center; }
+
+.rmGroupFit {
+	background-color:#b8f0ad !important;
+}
+.rmSpin {
+	background-color:#efedbc !important;
+}
+.rmOutdoor {
+	background-color:#f1d4b1 !important;
+}
+.rmMindBody {
+	background-color:#f1b8b1 !important;
+}
+.rmAquatics {
+	background-color:#bcd4e9 !important;
+}
+#groupFitLocale tr:first-child th.first {
+    -moz-border-radius-topleft:8px;
+    -webkit-border-top-left-radius:8px; /* Saf3-4 */
+}
+ 
+#groupFitLocale tr:first-child th.last {
+    -moz-border-radius-topright:8px;
+    -webkit-border-top-right-radius:8px; /* Saf3-4 */
+}
+#groupFitLocale tr:last-child td.first {
+    -moz-border-radius-bottomleft:8px;
+    -webkit-border-bottom-left-radius:8px; /* Saf3-4 */
+}
+ 
+#groupFitLocale tr:last-child td.last {
+    -moz-border-radius-bottomright:8px;
+    -webkit-border-bottom-right-radius:8px; /* Saf3-4 */
+}
+
+.tblstyle { width:100%; line-height:140%; background: #fff;  border-bottom:none; margin-bottom:20px; font-size:65%; text-align:center;}
+.tblstyle th { padding:5px 10px; text-align:left; border-bottom:1px solid #e0e0e0; background-color:none; font-size:140%; font-family:'PT Sans', Tahoma, Helvetica, Arial, sans-serif; font-weight:700; text-transform:uppercase; }
+td {
+    border: 1px solid #CCCCCC  !important;
+    font-size: 12px  !important;
+    line-height: 1.2em  !important;
+    text-align: center !important;
+}

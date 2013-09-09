@@ -1,0 +1,71 @@
+/*
+Theme Name: Georgia Southern University Admissions Theme 
+Author: Georgia Southern University Web Team
+Author URI: http://www.georgiasouthern.edu/
+Description: Child theme of the Georgia Southern University Blue theme. 
+Template: gsublue
+Version: 1.2
+*/
+
+/* Custom Styles */
+
+.ribbon-left-home {border-top:30px solid #004E4A;}
+
+/* SIDEBAR */
+.ribbon-right {border-bottom: 18px solid #003E3C; border-left: 17px solid transparent; border-top: 18px solid #003E3C;}
+
+
+/*NAVIGATION */
+#mainmenu ul li.active-nav a:hover {background:#004e4a; color:#fff}
+#mainmenu li, #mainmenu li a { background-color: #004e4a;
+	background-image: -moz-linear-gradient(top, #006863, #004e4a);
+	background-image: -ms-linear-gradient(top, #006863, #004e4a);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#006863), to(#004e4a));
+	background-image: -webkit-linear-gradient(top, #006863, #004e4a);
+	background-image: -o-linear-gradient(top, #006863, #004e4a);
+	background-image: linear-gradient(top, #006863, #004e4a);
+	background-repeat: repeat-x;
+	opacity:.99;
+}
+#mainmenu li a:hover { background:#004e4a; color:#fff }
+#mainmenu ul.sub-menu {background:#004e4a; }
+#mainmenu ul.sub-menu li, #mainmenu ul.sub-menu li a {background:#004e4a; color:#fff;}
+#mainmenu ul.sub-menu li a { color:#fff; }
+#mainmenu ul.sub-menu li a:hover {background:#006863; color:#fff}
+
+/* ADMISSIONS BANNER IMAGE TEXT OVERLAY (HEADER) */
+#fp-banner-dept {height:310px; width:920px; background:#000; margin:10px; position:relative; border:10px solid #e0e0e0;}
+
+#fp_titleblock { opacity: .95; padding:15px 30px 15px 20px; border-radius:0px; top:65px;  left:0px; 
+background-color: #004e4a;
+background-image: -moz-linear-gradient(top, #006863, #004e4a);
+background-image: -ms-linear-gradient(top, #006863, #004e4a);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#006863), to(#004e4a));
+background-image: -webkit-linear-gradient(top, #006863, #004e4a);
+background-image: -o-linear-gradient(top, #006863, #004e4a);
+background-image: linear-gradient(top, #006863, #004e4a);
+
+}
+#fp_titleblock a {color:#FFF; text-decoration:none; margin:0; }
+#fp_titleblock #row2 a:hover {text-decoration:none; }
+#fp_titleblock a:hover {text-decoration:underline; }
+#fp_titleblock div#row1 {font-size:20px; margin-bottom:0px}
+#fp_titleblock div#row2 {font-size:39px; margin-top:-5px;}
+#fp_titleblock div#row3 {font-size:14px; margin-top:3px;margin-left:2px;}
+
+/* HOME BOTTOM WIDGETS */
+.fp_feature {border-top: 4px solid #004E4A;}
+.fp_readmore {background-color: #004E4A;}
+.fp_readmore:hover {background-color: #006863;}
+
+
+/* Responsive style overrides - match menu button color to Admissions site. */
+@media (max-width: 640px) {
+
+#menu-icon:hover {
+		background-color: #004E4A!important; 
+		}
+#mainmenu li a:hover {		
+		color: #006863!important;
+		}
+}

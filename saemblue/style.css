@@ -1,0 +1,19 @@
+/*
+Theme Name: Georgia Southern University SAEM Blue Theme
+Author: Georgia Southern University Web Team
+Author URI: http://wordpress.georgiasouthern.edu
+Description: Child theme of GSU Blue Theme for SAEM sites.
+Template: gsublue
+Version: 1.2
+*/
+
+
+/* Custom Styles */
+#sidebar-dept .gsu_saem_graphics  {
+	max-width:250px;
+	}
+	
+#sidebar-dept .gsu_saem_graphics  h6 {
+	display:none;
+	}
+	

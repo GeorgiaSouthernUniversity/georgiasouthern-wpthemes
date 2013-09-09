@@ -1,0 +1,81 @@
+/*
+Theme Name: Georgia Southern University College Theme
+Author: Georgia Southern University Web Team
+Author URI: http://www.georgiasouthern.edu/
+Description: Theme for Georgia Southern University college and large division sites. 
+Version: 1.2
+*/
+
+
+
+/* TABS */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	background: #3b5997;
+	background: -moz-linear-gradient(top,  #3b5997 0%, #365189 28%, #293c65 76%, #243558 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b5997), color-stop(28%,#365189), color-stop(76%,#293c65), color-stop(100%,#243558));
+	background: -webkit-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: -o-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: -ms-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	color:#FFFFFF;
+	}
+.ui-tabs-nav li a:hover {
+	background: #3b5997;
+	background: -moz-linear-gradient(top,  #3b5997 0%, #365189 28%, #293c65 76%, #243558 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b5997), color-stop(28%,#365189), color-stop(76%,#293c65), color-stop(100%,#243558));
+	background: -webkit-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: -o-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: -ms-linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	background: linear-gradient(top,  #3b5997 0%,#365189 28%,#293c65 76%,#243558 100%);
+	color:#FFF; 
+}
+.ui-tabs .ui-tabs-panel {
+display: block;
+ padding: 1em 1.4em; 
+ background: none;
+ border-top:none;
+ margin-top:4px;
+ }
+ 
+#pagepad ul.resetlist li {
+	height: auto;
+	line-height:1.4em;
+	}
+	
+/* Add This Sharing Buttons */
+.breadcrumbs {
+	width: 85%; 
+	}
+.addthis_toolbox {
+    clear: both;
+    float: right !important;
+    margin-right: 19px !important;
+    margin-top: 25px !important;
+    position: relative;
+    width: 105px !important;
+}
+	
+/* Post Styles */
+h1#news {
+	font-size: 2.5em;
+	}
+.news h1 {
+	font-size: 2em;
+	line-height:1.1em;
+	}
+.news h2 {
+	font-size: 1.8em;
+	line-height:1.2em;
+	}
+
+.prev-post, .next-post {
+	font-size: 11px;
+	color: #555;
+	line-height:1em;
+	}
+.next-post {
+	float:right;
+	width: auto;
+	clear:both;
+	text-decoration:underline;
+	}

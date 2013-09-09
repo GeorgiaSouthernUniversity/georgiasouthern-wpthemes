@@ -1,0 +1,171 @@
+﻿/*
+Theme Name: Georgia Southern University Forums
+Description: Custom theme for Georgia Southern University discussion forums.
+Author: Georgia Southern University Web Team
+Author URI: http://www.georgiasouthern.edu
+Version: 1.0
+*/
+
+
+#parentwrap {height:43px; background:url(images/bg_ribboncorner.png) no-repeat left bottom;  }
+h6.parent-home {display:inline-block; height:38px; line-height:38px; padding:0 25px; font-size:16px; font-family:'MyriadSemi', Arial, sans-serif; font-weight:400;  }
+html.ie.ie7 h6.parent-home {display:block; float:left height:38px; line-height:38px; padding:0 25px; font-size:16px; font-family:'MyriadSemi'; font-weight:400;  }
+h6.parent-home a {color:#fff; text-decoration:none;}
+#contentpad-dept { border:2px solid #fff; outline:2px solid #eee; padding:30px; line-height:155%; }
+html.ie #contentpad-dept {border:1px solid #ddd;}
+.ribbon-left-home {border-top:30px solid #004E4A;}
+#bottom_bar .textwidget {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-top: 1px solid #EEEEEE;
+    bottom: 0;
+    font-size: 12px;
+    height: 40px;
+    left: 0;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+a.rsswidget {color: #FFFFFF; text-decoration:none;background:none;}
+
+/* SIDEBAR */
+#sidebar-dept { background:#fff url(../web_templates/CORE/css/images/bg_sidebar.png) no-repeat left 15px;}
+h6.ribbon-sidebar-dept {height:38px; line-height:33px; color:#fff;  margin:0 0 10px 0; position:relative; left:-10px; padding-left:20px;}
+.ribbon-right {border-bottom: 18px solid #0452a0; border-left: 17px solid transparent; border-top: 18px solid #0452a0;width:175px; font-size:16px;}
+.ribbon-right-corner {left: 206px;}
+#sidebarpad-dept {padding:2px 10px 15px 15px; border:2px solid #fff; outline:1px solid #eee;}
+#contactinfo-dept {padding-left:10px; margin-bottom:20px}
+#applynow.ribbon-right {border-color:#0452a0;border-left-color: transparent;}
+
+//* NAVIGATION */
+#mainmenu { top:-2px; z-index: 50; position:relative;  height:40px; margin:0; padding:0 0 0 10px; width:100%; font-family:'MyriadSemi', Arial, Helvetica, sans-serif; font-weight:normal}
+html.ie.ie7 #mainmenu  { margin-left:-60px;}
+html.ie.ie7 #mainmenu ul.menu { margin-left:60px;}
+#mainmenu ul	{ font-size: 13px; padding:0; margin:0 }
+#mainmenu ul:after { content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden }
+#mainmenu ul li { height:35px; line-height:35px; border-right:1px solid #f7f7f7; border-top:1px solid #f7f7f7; padding:0; margin:0;   }
+#mainmenu ul li.firstlink { border-left:2px solid #eee; }
+#mainmenu ul li.lastlink { border-right:1px solid #ddd }
+#mainmenu li, #mainmenu li a { display: block; float:left; height:35px; line-height:35px; position: relative; text-decoration: none; padding: 0 8px; margin:0; background:#666; color:#fff }
+#mainmenu li a:hover { background: #CCC; color:#000; }
+
+#mainmenu li:hover ul { display: block; }
+html.ie.ie7 #mainmenu ul.sub-menu {left:0px;}
+#mainmenu ul.sub-menu { background: #ddd; padding:5px 0; width: 180px; height: auto; display: none; position: absolute; left:0px; top: 35px; text-align: left; border-radius:0 0 3px 3px }
+#mainmenu ul.sub-menu li { padding-left:0;  }
+#mainmenu ul.sub-menu li, #mainmenu ul.sub-menu li a {width: 165px; height:30px; line-height:30px; background:#CCC; color:#000; border:none}
+#mainmenu ul.sub-menu.large {width: 230px}
+#mainmenu ul.sub-menu.large li, #mainmenu ul.sub-menu.large li a {width:215px}
+#mainmenu ul.sub-menu li a {padding-right:0px; border-radius:0px; font-size:13px; padding-left:15px; color:#000; font-family:'Myriad', Arial, Helvetica, sans-serif;font-weight:400; border:none; }
+#mainmenu ul.sub-menu li a:hover {background:#555; color:#fff}
+#mainmenu ul li.active-nav {background:#fff; border-top:1px solid #ddd; height:36px;}
+#mainmenu ul li.active-nav a {background:#fff; color:#000; font-family:'Myriad', Arial, Helvetica, sans-serif; font-weight:700; font-size:14px}
+#mainmenu ul li.active-nav a:hover {background:#0452a0; color:#fff}
+#mainmenu ul li.active-nav ul.sub-menu a {font-weight:400; font-size:13px}
+#mainmenu li, #mainmenu li a { background-color: #0452a0;
+	background-image: -moz-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -ms-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0583c0), to(#0452a0));
+	background-image: -webkit-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -o-linear-gradient(top, #0583c0, #0452a0);
+	background-image: linear-gradient(top, #0583c0, #0452a0);
+	background-repeat: repeat-x;
+	opacity:.99;
+}
+#mainmenu li a:hover { background:#0452a0; color:#fff }
+#mainmenu ul.sub-menu {background:#0452a0; }
+#mainmenu ul.sub-menu li, #mainmenu ul.sub-menu li a {background:#0452a0; color:#fff;}
+#mainmenu ul.sub-menu li a { color:#fff; }
+#mainmenu ul.sub-menu li a:hover {background:#0583c0; color:#fff}
+
+/* BANNER IMAGE TEXT OVERLAY (HEADER) */
+#fp-banner-dept {height:310px; width:920px; background:#000; margin:10px; position:relative; border:10px solid #e0e0e0;}
+.ribbon-left-home {border-top: 30px solid #0452a0;}
+#fp_titleblock { opacity: .98; padding:15px 30px 15px 20px; border-radius:0px; top:100px;  left:0px; 
+	background-color: #0452a0;
+	background-image: -moz-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -ms-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0583c0), to(#0452a0));
+	background-image: -webkit-linear-gradient(top, #0583c0, #0452a0);
+	background-image: -o-linear-gradient(top, #0583c0, #0452a0);
+	background-image: linear-gradient(top, #0583c0, #0452a0);
+
+}
+#fp_titleblock a {color:#FFF; text-decoration:none; margin:0 2px; }
+#fp_titleblock #row2 a:hover {text-decoration:none; }
+#fp_titleblock a:hover {text-decoration:underline; }
+#fp_titleblock div#row1 {font-size:20px; margin-bottom:0px}
+#fp_titleblock div#row2 {font-size:39px; margin-top:-5px;}
+#fp_titleblock div#row3 {font-size:14px; margin-top:3px;margin-left:2px;}
+
+
+/* CONTENT STYLES */
+.news_item {border:none;}
+
+hr.divide-news {
+margin-top: 5px;
+margin-bottom: 5px;
+height: 0px;
+border-bottom: 2px solid white;
+border-top: 1px solid #E9E9E9;
+clear: both;
+}
+
+ul.subnav {
+	margin-left: 0;
+	}
+
+ul.subnav li{
+    float: left;
+    list-style-type: none;
+    margin: -25px 0 25px 0;
+    padding: 0 25px 0 0;
+    width: auto;
+}
+ul.subnav li  a {
+	font-weight: 700;
+	}
+.floatleft {
+	float: left;
+	width: 35%;
+	}
+.clear {
+	clear: both;
+}
+
+strong {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: inherit;
+}
+
+#international ul.tabs li a {
+	padding: 0 12px;
+	}
+
+/* Post Styles */
+.prev-post, .next-post {
+	font-size: 11px;
+	color: #555;
+	}
+.next-post {
+	float:right;
+	width: auto;
+	clear:both;
+	}
+
+/* Form Styles */
+div.form-box {
+	border:1px solid #CCC;
+	padding: 15px;
+	margin-bottom: 15px;
+	}
+	
+/* bbPress Styles */
+.button, .logout-link {margin-bottom: 15px!important; padding: 4px!important; line-height: 1em!important;}
+.bbp-logged-in h4 {
+    font-size: 1em!important;
+    margin-bottom: 15px!important;
+}
+#bbpress-forums p.bbp-topic-meta {
+    text-align: center!important;
+}
